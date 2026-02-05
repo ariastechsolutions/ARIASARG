@@ -18,11 +18,8 @@ This library provides tools and building blocks for SAR (Synthetic Aperture Rada
 
 Below are the main modules in the library. 
 
-The Main Entry Point for each module is the Main.py file which is located at the core of each module folder. 
+The __init__.py file in each module exposes the core functionalities that the user can access directly , without it the use would have to import from submodules.
 
-The `main.py` file serves as the primary entry point for each module. It orchestrates the functions and classes implemented across the other files within the module directory.
-
-Accordingly, the documentation focuses on how to use `main.py` for each module and highlights the core functionalities exposed by that module.
 
 ### DEM Module
 The **DEM Module** handles all tasks related to Digital Elevation Models (DEM), from data acquisition to preprocessing and preparation for integration with SAR products.
